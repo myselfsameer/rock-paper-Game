@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container h1{
+    color: rgb(74, 223, 173);
+    background-color: rgb(17, 49, 53);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-options{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* background-color: aquamarine; */
+}
+
+.box{
+    display: flex;
+     height: 11rem;
+     width: 11rem;
+     border: 2px solid black;
+     align-items: center;
+     justify-content: center;
+}
+
+.box img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    color: chartreuse;
+}
+
+.Score{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+.user{
+    color: rgb(53, 20, 204);
+    
+}
+
+.user #myScore{
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+.comp {
+    color: rgb(194, 10, 71);
+
+}
+
+.comp #compScore{
+    margin-left: 3rem;
+    gap: 1rem;
+}
+
+.result{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result p{
+    background-color: rgb(158, 63, 0);
+    height: 3rem;
+    width: 25rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-size: 1.5rem;
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
